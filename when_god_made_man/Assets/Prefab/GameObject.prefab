@@ -1,0 +1,1763 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1150148441526964}
+  m_IsPrefabParent: 1
+--- !u!1 &1101628167269118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4165117866415130}
+  - component: {fileID: 114335862759797512}
+  m_Layer: 0
+  m_Name: BuildingSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1150148441526964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4618595067035510}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1212433492777126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4688098353679400}
+  - component: {fileID: 114311684233964830}
+  m_Layer: 0
+  m_Name: AutoSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1536401898463332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4714737967066594}
+  - component: {fileID: 114105174074084244}
+  m_Layer: 0
+  m_Name: Collection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1539984942248978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4508914865848958}
+  - component: {fileID: 114531273385421890}
+  m_Layer: 0
+  m_Name: OptionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1554170743484112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224879609160100528}
+  - component: {fileID: 114558374150021020}
+  - component: {fileID: 114035535352798884}
+  - component: {fileID: 222378496267712490}
+  - component: {fileID: 114892928608946080}
+  m_Layer: 0
+  m_Name: AchievmentManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1729138274557292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224420497834796972}
+  - component: {fileID: 114531065792997348}
+  m_Layer: 5
+  m_Name: DataController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4165117866415130
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101628167269118}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 523.8729, y: 518.2534, z: -13.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4618595067035510}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4508914865848958
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539984942248978}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 325.1712, y: -143.14032, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4618595067035510}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4618595067035510
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150148441526964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 134.32878, y: 358.14032, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224879609160100528}
+  - {fileID: 4508914865848958}
+  - {fileID: 4165117866415130}
+  - {fileID: 4714737967066594}
+  - {fileID: 4688098353679400}
+  - {fileID: 224420497834796972}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4688098353679400
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212433492777126}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -63.82878, y: -233.14032, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4618595067035510}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4714737967066594
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536401898463332}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 238.05672, y: 588.0929, z: -10.224931}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4618595067035510}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114035535352798884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554170743484112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114892928608946080}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114105174074084244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536401898463332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e9da90bb87bde46ab72700b6717fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  col:
+  - obj:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    img:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    sp:
+    - "\uBCBC\uC5D0\uC11C \uC300\uC744."
+    - "\uACE0\uAE30\uB97C \uC7A1\uC73C\uB7EC \uBC14\uB2E4\uB85C \uAC08\uAE4C\uC694~"
+    - "\uCF5C\uB85D \uB178\uB2E4...\uCF5C\uB85D \uC9C0\uB2E4.."
+    - "\uC694\uC998\uC5D0 \uB204\uAC00 \uB3C4\uB07C\uB85C \uB098\uBB34\uB97C \uC790\uB974\uC8E0?"
+    - "\uBB34\uC5B8\uAC00\uB97C \uB9CC\uB4E0\uB2E4\uB294 \uAC74 \uBCF4\uB78C\uCC2C
+      \uC77C\uC774\uC8E0."
+    - "\uBB34\uAC81\uB2E4...\uC774\uAC83\uC774 \uC0B6\uC758 \uBB34\uAC8C...? (\uB540\uC744
+      \uD6D4\uCE58\uBA70)"
+    - "\uC800\uAE30\uC5D0 \uC0B0\uC0BC\uC774 \uC788\uB2E4\uACE0 \uD574\uC11C \uC5BC\uB978
+      \uCE90\uB7EC\uAC14\uC8E0. \uC54C\uACE0\uBCF4\uB2C8 \uB354\uB355\uC778 \uAC70\uC5D0\uC694.
+      \uBCF4\uC790\uB9C8\uC790 \uB208\uBB3C\uC774 \uB0AC\uC8E0."
+    - "\uB9CE\uC774 \uBA39\uACE0 \uB9DB\uC788\uB294 \uC721\uB958\uAC00\uACF5\uD488\uC774
+      \uB418\uB834 \uC560\uB4E4\uC544."
+    - "\uC774\uAC70 \uC81C\uAC00 \uBCFC\uB54C\uB294 \uC5D4\uC9C4\uBD80\uD130 \uC2F9
+      \uB2E4 \uAC08\uC544\uC57C\uACA0\uB294\uB370\uC694..?"
+    - "\uBC84\uC12F \uBA39\uB294\uB2E4\uACE0 \uD0A4\uAC00 \uD06C\uC9C4 \uC54A\uC2B5\uB2C8\uB2E4."
+    - "\uB124 \uACE0\uAE30\uAC00 \uD558\uB3C4 \uB35C \uC775\uC5B4\uC11C \uCD08\uC6D0\uC5D0
+      \uD480\uBA74 \uB6F0\uC5B4\uAC00\uACA0\uB2E4."
+    - 
+    str:
+    - 0
+    - 0
+    - 0
+    - 100
+    - 100
+    - 100
+    - 100
+    - 100
+    - 100
+    - 100
+    - 100
+    - 
+    kol:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 100
+    - 100
+    - 100
+    - 100
+    - 100
+    - 
+    charm:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    skill:
+    - 0
+    - 0
+    - 0
+    - 100
+    - 100
+    - 100
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    name:
+    - "\uB18D\uBD80"
+    - "\uC5B4\uBD80"
+    - "\uAD11\uBD80"
+    - "\uB098\uBB34\uAFBC"
+    - "\uBAA9\uC218"
+    - "\uAC74\uCD95\uAC00"
+    - "\uC57D\uCD08\uAFBC"
+    - "\uB18D\uC7A5\uC8FC"
+    - "\uC815\uBE44\uC0AC"
+    - "\uBC30\uAD00\uACF5"
+    - "\uC694\uB9AC\uC0AC"
+    - 
+    total:
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 200
+    - 
+    data: 000000000000000000000000
+    att:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    attSpeed:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    attAdd:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    level: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    cost: 640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000
+  - obj:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    img:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    sp:
+    - " \uC544.. \uB178\uB8E8\uC57C\u2026 \uB610 \uD574\uBC84\uB838\uC5B4\u2026 "
+    - "\uACE0\uAC1D\uB2D8 \uC2E0\uC6A9\uB3C4\uAC00 \uB108\uBB34 \uB0AE\uC73C\uC138\uC694
+      ^^ "
+    - "\uC8FC\uBB38\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C\uB0E5?"
+    - "\uC5B4\uC11C\uC624\uC138\uC694. \uC548\uB155\uD788\uAC00\uC138\uC694."
+    - "\uC790\uB294 \uC560\uB4E4 \uAE68\uC6CC\uB77C."
+    - "\uC77C\uC740 \uD798\uB4E4\uC9C0\uB9CC \uD658\uC790\uBD84\uB4E4\uC758 \uC704\uB85C
+      \uD55C \uB9C8\uB514\uB97C \uB4E4\uC73C\uBA74 \uD798\uC774 \uB098\uC694."
+    - "\uC785 \uBC8C\uB824 \uC6B0\uD3B8 \uB4E4\uC5B4\uAC04\uB2E4."
+    - "\uB81B\uCE20 \uACE0 \uAD11\uC8FC."
+    - "\uC77C\uB2E8 \uC11C\uC5D0 \uAC00\uC11C \uC598\uAE30\uD558\uC2DC\uC8E0."
+    - "\uC7A5\uBE44\uAC00 \uB108\uBB34 \uB0A1\uC544\uC11C \uAC00\uB054 \uBD88\uC548\uD558\uAE30\uB3C4
+      \uD574\uC694."
+    - "\uC800\uB3C4 \uC774 \uCC45 \uC77D\uC5C8\uB294\uB370 \uBB58 \uC880 \uC544\uC2DC\uB294
+      \uBD84\uC774\uB124\uC694."
+    - "\uC190\uB2D8 \uBA38\uB9AC\uB294 \uB9C8\uC74C\uC5D0 \uB4DC\uC138\uC694?"
+    str:
+    - 100
+    - 0
+    - 0
+    - 0
+    - 0
+    - 200
+    - 200
+    - 200
+    - 200
+    - 0
+    - 0
+    - 0
+    kol:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 100
+    - 100
+    - 100
+    - 100
+    - 0
+    - 0
+    - 0
+    charm:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 100
+    - 100
+    - 100
+    skill:
+    - 100
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 200
+    - 200
+    - 200
+    name:
+    - "\uC815\uC6D0\uC0AC"
+    - "\uC740\uD589\uC6D0"
+    - "\uC6E8\uC774\uD130"
+    - "\uD3B8\uB3CC\uC774"
+    - "\uAD50\uC0AC"
+    - "\uC774\uC05C \uAC04\uD638\uC0AC"
+    - "\uC6B0\uCCB4\uBD80"
+    - "\uD0DD\uC2DC \uAE30\uC0AC"
+    - "\uACBD\uCC30\uAD00"
+    - "\uC18C\uBC29\uAD00"
+    - "\uC0AC\uC11C"
+    - "\uBBF8\uC6A9\uC0AC"
+    total:
+    - 200
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    data: 000000000000000000000000
+    att:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    attSpeed:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    attAdd:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    level: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    cost: 640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000
+  - obj:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    img:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    sp:
+    - "\uB124 \uB9D0\uC500\uD558\uC138\uC694 \uACE0\uAC1D\uB2D8."
+    - "\uC598\uB4E4\uC544 \uCD95\uAD6C\uD558\uC790!"
+    - "\uCF54\uD2B8 \uC704\uC5D0\uC11C \uB09C \uC790\uC720\uB86D\uB2E4."
+    - "\uBC30\uC694? \uADF8\uB7F0\uAC78 \uC65C\uD0C0\uC8E0?"
+    - "\uC774\uC81C \uACF5 \uC8FC\uC6CC\uC624\uAE30 \uC2EB\uC5B4\uC694."
+    - "\uD558\uB098\uB9CC \uB354 \uD560\uAC8C\uC694. \uC544\uB2C8\uB2E4 \uC138\uAC1C
+      \uB354."
+    - "\uACE8\uD504\uCC44\uAC00 \uB108\uB97C \uB300\uC2E0\uD574\uC11C \uB9D0\uD558\uAC8C
+      \uD558\uB77C."
+    - "\uBB34\uB300 \uC704\uC5D0\uC11C \uC804 \uB0A0 \uC218 \uC788\uC5B4\uC694."
+    - "\uCE74\uB808\uC788\uC5B4?"
+    - "\uC778\uC815\uD574 \uC548\uD574 \uC778\uC815\uD574 \uC548\uD574 \uCEF4\uD4E8\uD130
+      \uC548\uC5D0 \uC0AC\uB78C\uB4E4\uC774 \uC788\uB2E4\uACE0!!!!"
+    - 
+    - 
+    str:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 
+    - 
+    kol:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 200
+    - 200
+    - 200
+    - 0
+    - 0
+    - 
+    - 
+    charm:
+    - 100
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    skill:
+    - 200
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 200
+    - 200
+    - 
+    - 
+    name:
+    - "\uD154\uB808\uB9C8\uCF00\uD130"
+    - "\uCD95\uAD6C\uC120\uC218"
+    - "\uB18D\uAD6C\uC120\uC218"
+    - "\uC218\uC601\uC120\uC218"
+    - "\uC57C\uAD6C\uC120\uC218"
+    - P.T
+    - "\uACE8\uD504 \uC120\uC218"
+    - "\uBB34\uC6A9\uAC00"
+    - "\uCE74\uB808\uC774\uC11C"
+    - "\uD504\uB85C\uAC8C\uC774\uBA38"
+    - 
+    - 
+    total:
+    - 400
+    - 700
+    - 700
+    - 700
+    - 700
+    - 700
+    - 700
+    - 700
+    - 700
+    - 700
+    - 
+    - 
+    data: 000000000000000000000000
+    att:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    attSpeed:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    attAdd:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    level: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    cost: 640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000
+  - obj:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    img:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    sp:
+    - "\uB300\uB828 \uD55C\uBC88 \uBD80\uD0C1\uD574\uB3C4 \uB418\uACA0\uC2B5\uB2C8\uAE4C?"
+    - "\uC774\uC81C\uBD80\uD134 \uC81C \uC601\uC5ED \uC785\uB2C8\uB2E4."
+    - "\uB3C8\uAE4C\uC2A4\uAC00 \uC81C\uC77C \uC88B\uC544"
+    - "\uD759\uC5D0 \uC228\uC744 \uBD88\uC5B4\uB123\uB294 \uAC83\uC785\uB2C8\uB2E4."
+    - "\uC774 \uAF43\uB4E4 \uB108\uBB34 \uC608\uC058\uC9C0 \uC54A\uB098\uC694? \uB9C8\uCE58
+      \uC800\uCC98\uB7FC."
+    - "\uC120\uC728\uC740 \uC774\uC5B4\uC838\uC57C \uD574\uC694"
+    - "\uCC3D\uC758\uC131\uB3C4 \uC911\uC694\uD558\uC9C0\uB9CC \uCCB4\uB825 \uAD00\uB9AC\uB3C4
+      \uC911\uC694\uD574\uC694."
+    - "\uBB54\uAC00 \uB5A0\uC624\uB97C \uAC83 \uAC19\uC740\uB370..."
+    - "\uC5B8\uC81C\uAE4C\uC9C0 \uC7A5\uB974\uC640 \uBB38\uD559\uC758 \uACBD\uACC4\uC5D0\uC11C
+      \uD5E4\uB9E4\uC57C \uB420\uAE4C."
+    - 
+    - 
+    - 
+    str:
+    - 400
+    - 400
+    - 400
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    kol:
+    - 0
+    - 0
+    - 200
+    - 0
+    - 0
+    - 0
+    - 400
+    - 400
+    - 400
+    - 
+    - 
+    - 
+    charm:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 300
+    - 300
+    - 300
+    - 
+    - 
+    - 
+    skill:
+    - 200
+    - 200
+    - 0
+    - 0
+    - 0
+    - 0
+    - 500
+    - 500
+    - 500
+    - 
+    - 
+    - 
+    name:
+    - "\uD0DC\uAD8C\uB3C4"
+    - "\uD30C\uC77C\uB7FF "
+    - "\uAE61\uD328"
+    - "\uB3C4\uC608\uAC00"
+    - "\uAF43\uAF42\uC774"
+    - "\uC5F0\uC8FC\uC790"
+    - "\uB9CC\uD654\uAC00"
+    - "\uC791\uACE1\uAC00"
+    - "\uC18C\uC124\uAC00"
+    - 
+    - 
+    - 
+    total:
+    - 700
+    - 700
+    - 700
+    - 1300
+    - 1300
+    - 1300
+    - 1300
+    - 1300
+    - 1300
+    - 
+    - 
+    - 
+    data: 000000000000000000000000
+    att:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    attSpeed:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    attAdd:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    level: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    cost: 640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000
+  - obj:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    img:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    sp:
+    - "\uC0AC\uC6D4\uC740 \uAC00\uC7A5 \uC794\uC778\uD55C \uB2EC."
+    - "\uC815\uC2E0\uC744 \uC218\uC591\uD558\uB294 \uB370\uC5D0 \uC11C\uC608\uB9CC\uD55C
+      \uAC83\uC774 \uC5C6\uC9C0\uC694."
+    - "\uC81C \uAC10\uC815\uC744 \uADF8\uB824\uB0BC \uBFD0\uC774\uC5D0\uC694."
+    - "\uB108\uB3C4 \uB0B4 \uC778\uD615\uC774 \uB418\uBC84\uB824!!"
+    - "\uBE68\uB9AC \uB0A0 \uC4F0\uB2E4\uB4EC\uC5B4 \uB2EC\uB77C\uC639"
+    - "\uB208\uC774 \uBA40\uC73C\uC168\uAD70\uC694\u2026\uACE7 \uAE68\uB2EB\uAC8C
+      \uD574\uB4DC\uB9B4\uAC8C\uC694."
+    - "\uC57C 0208 \uB108\uC9C0."
+    - "\uC9C0\uAE08 \uC2DC\uC791\uD569\uB2C8\uB2E4~"
+    - 
+    - 
+    - 
+    - 
+    str:
+    - 0
+    - 0
+    - 0
+    - 300
+    - 300
+    - 300
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    kol:
+    - 100
+    - 100
+    - 100
+    - 300
+    - 300
+    - 300
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    charm:
+    - 500
+    - 500
+    - 500
+    - 300
+    - 300
+    - 300
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    skill:
+    - 600
+    - 600
+    - 600
+    - 300
+    - 300
+    - 300
+    - 0
+    - 0
+    - 
+    - 
+    - 
+    - 
+    name:
+    - "\uC2DC\uC778"
+    - "\uC11C\uC608\uAC00"
+    - "\uD654\uAC00"
+    - "\uC778\uD615\uC0AC"
+    - "\uACE0\uC591\uC774"
+    - "\uC218\uB140\uB2D8"
+    - "\uBC30\uC6B0"
+    - MC
+    - 
+    - 
+    - 
+    - 
+    total:
+    - 1300
+    - 1300
+    - 1300
+    - 1300
+    - 1300
+    - 1300
+    - 2000
+    - 2000
+    - 
+    - 
+    - 
+    - 
+    data: 000000000000000000000000
+    att:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    attSpeed:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    attAdd:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    level: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    cost: 640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000
+  - obj:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    img:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    sp:
+    - "\uBCF5\uBD88\uBCF5\uC73C\uB85C \uC815\uD558\uACA0\uC2B5\uB2C8\uB2E4."
+    - "\uC18D\uBCF4\uC785\uB2C8\uB2E4. \uC624\uB298 \uC0AC\uC6A9\uC790\uB2D8\uAED8\uC11C
+      \uC870\uD569\uC744 \uD1B5\uD574 \uC800\uB97C \uBF51\uC73C\uC168\uB2E4\uACE0
+      \uD569\uB2C8\uB2E4."
+    - "\uCEF7. \uBC29\uAE08 \uB290\uB08C \uC88B\uC558\uC5B4\uC694."
+    - "\uC774\uB984\uD558\uC57C \uACE0\uCC38~!"
+    - "\uB178\uB798\uB85C \uC0AC\uB78C\uB4E4\uC744 \uC704\uB85C\uD574\uC8FC\uACE0
+      \uC2F6\uC5B4\uC694."
+    - "\uC2A4\uC74D...\uD558...\uB514\uC2A4 \uC774\uC988 \uB9AC\uC5BC \uD799\uD569..."
+    - "\uBC15\uC218 \uBC15\uC218!!"
+    - "\uC81C \uC190\uC5D0\uC11C \uB208\uC744 \uB54C\uC9C0 \uB9C8\uC2ED\uC2DC\uC624."
+    - 
+    - 
+    - 
+    - 
+    str:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 500
+    - 500
+    - 
+    - 
+    - 
+    - 
+    kol:
+    - 600
+    - 600
+    - 600
+    - 400
+    - 400
+    - 400
+    - 400
+    - 400
+    - 
+    - 
+    - 
+    - 
+    charm:
+    - 400
+    - 400
+    - 400
+    - 700
+    - 700
+    - 700
+    - 500
+    - 500
+    - 
+    - 
+    - 
+    - 
+    skill:
+    - 900
+    - 900
+    - 900
+    - 800
+    - 800
+    - 800
+    - 500
+    - 500
+    - 
+    - 
+    - 
+    - 
+    name:
+    - PD
+    - "\uC544\uB098\uC6B4\uC11C"
+    - "\uC601\uD654\uAC10\uB3C5"
+    - "\uC131\uC6B0"
+    - "\uAC00\uC218"
+    - "\uB798\uD37C"
+    - "\uAD11\uB300"
+    - "\uB9C8\uC220\uC0AC"
+    - 
+    - 
+    - 
+    - 
+    total:
+    - 2000
+    - 2000
+    - 2000
+    - 2000
+    - 2000
+    - 2000
+    - 2000
+    - 2000
+    - 
+    - 
+    - 
+    - 
+    data: 000000000000000000000000
+    att:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    attSpeed:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    attAdd:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    level: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    cost: 640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000
+  - obj:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    img:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    sp:
+    - "\uCD94\uCC9C \uAD6C\uB3C5 \uBD80\uD0C1\uB4DC\uB9BD\uB2C8\uB2E4."
+    - "\uC190 \uBA38\uB9AC \uC704\uB85C!"
+    - "\uC0D8\uD50C\uC744 \uCC44\uCDE8\uD574\uC57C\uACA0\uAD70."
+    - "\uBB54\uAC00 \uACE0\uBBFC\uD558\uACE0 \uC788\uB294 \uAC8C \uC788\uC73C\uBA74
+      \uC598\uAE30\uD574\uBCF4\uC138\uC694."
+    - "\uC778\uB514\uC544\uB098 \uC874\uC2A4\uB97C \uBCF8 \uAC8C \uC81C \uC778\uC0DD
+      \uCD5C\uB300\uC758 \uC2E4\uC218\uC8E0."
+    - "\uACBD\uC81C\uB97C \uBC30\uC6E0\uC9C0\uB9CC \uC800\uB3C4 \uB3C8\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."
+    - "\uD0A4\uC6B0\uAE30 \uC2DC\uC791\uD55C \uC774\uC0C1 \uC7A1\uCD08\uAC00 \uC544\uB2D9\uB2C8\uB2E4."
+    - 
+    - 
+    - 
+    - 
+    - 
+    str:
+    - 500
+    - 500
+    - 0
+    - 0
+    - 1000
+    - 1000
+    - 1000
+    - 
+    - 
+    - 
+    - 
+    - 
+    kol:
+    - 400
+    - 400
+    - 0
+    - 0
+    - 2000
+    - 2000
+    - 2000
+    - 
+    - 
+    - 
+    - 
+    - 
+    charm:
+    - 500
+    - 500
+    - 0
+    - 0
+    - 500
+    - 500
+    - 500
+    - 
+    - 
+    - 
+    - 
+    - 
+    skill:
+    - 500
+    - 500
+    - 0
+    - 0
+    - 500
+    - 500
+    - 500
+    - 
+    - 
+    - 
+    - 
+    - 
+    name:
+    - BJ
+    - DJ
+    - "\uC5F0\uAD6C\uC6D0"
+    - "\uC0C1\uB2F4\uC0AC"
+    - "\uACE0\uACE0\uD559\uC790"
+    - "\uACBD\uC81C\uD559\uC790"
+    - "\uC2DD\uBB3C\uD559\uC790"
+    - 
+    - 
+    - 
+    - 
+    - 
+    total:
+    - 2000
+    - 2000
+    - 4200
+    - 4200
+    - 4200
+    - 4200
+    - 4200
+    - 
+    - 
+    - 
+    - 
+    - 
+    data: 000000000000000000000000
+    att:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    attSpeed:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    attAdd:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    level: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    cost: 640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000
+  - obj:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    img:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    sp:
+    - "\uC774\uBC88 \uAC74 \uD3ED\uBC1C\uC2DC\uD0A4\uC9C0 \uC54A\uC744 \uC790\uC2E0\uC774
+      \uC788\uC5B4\uC694."
+    - "\uC9D1\uC5D0 \uAC00\uACE0 \uC2F6\uB2E4."
+    - "\uC5B4\uB514\uAC00 \uBD88\uD3B8\uD574\uC11C \uC624\uC168\uC8E0?"
+    - "C\uBFCC\uB9AC\uAE30!"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    str:
+    - 700
+    - 700
+    - 1000
+    - 1000
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    kol:
+    - 1500
+    - 1500
+    - 2000
+    - 2000
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    charm:
+    - 900
+    - 900
+    - 500
+    - 500
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    skill:
+    - 900
+    - 900
+    - 500
+    - 500
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    name:
+    - "\uBC1C\uBA85\uAC00"
+    - "\uD504\uB85C\uADF8\uB798\uBA38"
+    - "\uC758\uC0AC"
+    - "\uB300\uD559\uAD50\uC218"
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    total:
+    - 4200
+    - 4200
+    - 4200
+    - 4200
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    data: 000000000000000000000000
+    att:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    attSpeed:
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    - 3
+    attAdd:
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    level: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+    cost: 640000006400000064000000640000006400000064000000640000006400000064000000640000006400000064000000
+  count: 0
+  collectionRate: {fileID: 0}
+  c: {r: 1, g: 1, b: 1, a: 1}
+  nc: {r: 0, g: 0, b: 0, a: 1}
+--- !u!114 &114311684233964830
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212433492777126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964c2fa0b3e333442a2d950128fc4b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slot:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114335862759797512
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101628167269118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e8f69a356c93744dabcef49fc9465f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldbuilding: {fileID: 0}
+  earnPrefab: {fileID: 1122134302261372, guid: 15a98c2308ab69e4188d11ff37a0e461, type: 2}
+  buildlv: 000000000000000000000000000000000000000000000000
+  timecount: 0
+  testgold: 0
+  teststr: 0
+  testknol: 0
+  testcharm: 0
+  testskill: 0
+  textcheck: 0
+  goldpersec: 0
+  strpersec: 0
+  knolpersec: 0
+  charmpersec: 0
+  skillpersec: 0
+  earntimetext: {fileID: 0}
+  nomoreclicker: {fileID: 0}
+--- !u!114 &114531065792997348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1729138274557292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa616137af5b2d459a3f6405f14e949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 1
+  totalHp: 10
+  Hpbar: 10
+  gold: 1000
+  lv: 0
+  str: 10000
+  knowledge: 100000000
+  skill: 100000000
+  charm: 1000000000
+  arstr: 00000000000000000000000000000000
+  arknowledge: 00000000000000000000000000000000
+  arskill: 00000000000000000000000000000000
+  archarm: 00000000000000000000000000000000
+  totalSource: 0
+  soundclip: 0
+  obj: {fileID: 1607595761922244, guid: 1a1e21d1b9ad70f44a29e7025ab6eaa1, type: 2}
+  CS: 0
+  boom: {fileID: 1696162166557562, guid: 35b6866dc3a3a3347a389922a95534be, type: 2}
+  img: {fileID: 0}
+  effectpos: {fileID: 0}
+--- !u!114 &114531273385421890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1539984942248978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8634da5970ba7414a92d93fe7907e2d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114558374150021020
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554170743484112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20823742667f2344a9eae9cf9cb383ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actx_1: {fileID: 0}
+  actx_2: {fileID: 0}
+  acearn: {fileID: 1669477974795336, guid: 9567543efb79bdd4ea825e566e639d61, type: 2}
+  achievmentPrefab: {fileID: 114959982707254394, guid: 5f9fe3b8d0073a94385d263811b6241d,
+    type: 2}
+  sprites:
+  - {fileID: 21300000, guid: 3e44ea3509eb86e428e2f2039d5b2c0c, type: 3}
+  - {fileID: 21300000, guid: 192eac26b11698740baeecab5a71fad4, type: 3}
+  - {fileID: 21300000, guid: 045aee00f2f95a44f87be646fda6ecc4, type: 3}
+  - {fileID: 21300000, guid: ac3d1cd372c0880469fd3a4fef2a91c3, type: 3}
+  - {fileID: 21300000, guid: 86b1fffe7efb2ac4c84e3950d0709646, type: 3}
+  - {fileID: 21300000, guid: 61825379ba62a48448364e29ab1cae99, type: 3}
+  - {fileID: 21300000, guid: 4492ab118acb7d44493f276575c41e17, type: 3}
+  - {fileID: 21300000, guid: f9cab5630df26894da5747f9fff769c9, type: 3}
+  - {fileID: 21300000, guid: 59f40c4463c650448a83c23c9cfbdfb5, type: 3}
+  - {fileID: 21300000, guid: 66c6e47c1058acc42a7c5ee29a05fb10, type: 3}
+  - {fileID: 21300000, guid: 56f5d27d48a69b54eaae24c5ea9203f2, type: 3}
+  - {fileID: 21300000, guid: 51d5e72a540c99f4a91edef466de0c87, type: 3}
+  - {fileID: 21300000, guid: 4a100983aa563e54c9c4130a42bd82ea, type: 3}
+  - {fileID: 21300000, guid: ed83ca493278a1c4ab4e308bce057530, type: 3}
+  - {fileID: 21300000, guid: adfcde8a15e54e24ea3ec311533d5bf0, type: 3}
+  - {fileID: 21300000, guid: e5cf34c1f3af65945b4cda76c5b04f3c, type: 3}
+  - {fileID: 21300000, guid: 4a8836fbdd06d6b4e83329352f9e4c03, type: 3}
+  - {fileID: 21300000, guid: 13da9803ba699ae49ae271ba7d94ccc0, type: 3}
+  - {fileID: 21300000, guid: e2323946c8409b242901c36524e8ad39, type: 3}
+  - {fileID: 21300000, guid: 574b4bf1f3b8d6540b9fa0c86153ad9d, type: 3}
+  - {fileID: 21300000, guid: cb525fd000a6f0f40aebe2b9cec7de69, type: 3}
+  - {fileID: 21300000, guid: 7b53c2621d4e0d64c8788fa27511b7af, type: 3}
+  - {fileID: 21300000, guid: df655ed72e7c964498e2eb6bdd51e7a5, type: 3}
+  - {fileID: 21300000, guid: a94a416a31c6c9a4c9cfea2d9e979181, type: 3}
+  - {fileID: 21300000, guid: e709b7b7bcaf6ad4186000d2d2dbc078, type: 3}
+  - {fileID: 21300000, guid: 0c677eac9a903f24fbff11d996be68d6, type: 3}
+  - {fileID: 21300000, guid: 6dece30df74ad9b4eb65ce7592209951, type: 3}
+  - {fileID: 21300000, guid: baf1e394c17882e42a00fb29fd2dba3e, type: 3}
+  - {fileID: 21300000, guid: 1bdc0675ed5cd874d8c95dfc59dda415, type: 3}
+  - {fileID: 21300000, guid: 00a9ad6d189cced408aa88668c0cc165, type: 3}
+  - {fileID: 21300000, guid: e35968b6853f3e349afe1335a8daf1aa, type: 3}
+  earncheck: 0
+  unlocked: 000000000000000000000000000000000000000000000000000000000000
+  playtime: 0
+  upgradecount: 0
+  mixcount: 0
+  buildcount: 0
+--- !u!114 &114892928608946080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554170743484112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &222378496267712490
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554170743484112}
+--- !u!224 &224420497834796972
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1729138274557292}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4618595067035510}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 321.1712, y: 32.659668}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224879609160100528
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1554170743484112}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -9.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4618595067035510}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 263.78882, y: 659.93945}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}

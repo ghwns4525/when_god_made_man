@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\OptionManager.cs">
+    <Files>
+      <File FileName="Assets\Script\DataController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Collection.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\AutoSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Building.cs" Line="75" Column="5" />
+      <File FileName="Assets\Script\bgmBuilding.cs" Line="12" Column="7" />
+      <File FileName="Assets\Script\OptionManager.cs" Line="14" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

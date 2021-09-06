@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\DataController.cs">
+    <Files>
+      <File FileName="Assets\Script\Coupon.cs" Line="36" Column="4" />
+      <File FileName="Assets\Script\MixSystem.cs" Line="115" Column="130" />
+      <File FileName="Assets\Script\OptionManager.cs" Line="2" Column="14" />
+      <File FileName="Assets\Script\DataController.cs" Line="82" Column="5" />
+      <File FileName="Assets\Script\BuildingEarn.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BuildingRepair.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Building.cs" Line="127" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

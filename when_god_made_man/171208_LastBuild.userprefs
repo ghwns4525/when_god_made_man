@@ -1,0 +1,25 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\JopPopup.cs">
+    <Files>
+      <File FileName="Assets\Script\AutoAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\CharInformation.cs" Line="1" Column="1" />
+      <File FileName="..\Script\OptionManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Collection.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\ClickButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\DataController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\ImageScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\UIManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Page.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BuildingButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Building.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BuildingRepair.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\BuildingEarn.cs" Line="32" Column="39" />
+      <File FileName="Assets\Script\JopPopup.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
